@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+body{
+    overflow: hidden;
+}
+#geral{
+    height: 100%;
+    width: 50%;
+    margin: 0px auto;
+    
+    
+}
+
+.barra{
+    background-color: #14213d;
+    width: 3%;
+    height: 100%;
+    float: left;
+    display: inline-block;
+
+}
+.contentTarefa{
+    overflow: hidden;
+    width: 80%;
+    display: inline-block;
+}
+
+.descTarefa{
+    
+    display: inline-block;
+    width: 100%;
+
+    margin-left: 3%;
+}
+
+.tarefas{
+    width: 95%;
+    height: 80px;
+    margin: 15px auto;
+    background-color: white;
+    border-radius: 10px 0px 0px 10px;
+    overflow: hidden;
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+
+}
+
+.titulotarefa{
+    display: inline-block;
+    padding: 5px;
+    
+}
+
+
+.concluir{
+    display: inline-block;
+    background-color: green;
+    text-align: center;
+    overflow:hidden;
+    line-height: 500%;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    float: right;
+    width: 15%;
+    height: 100%;
+}
+
+
+.navegacao {
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 49.5%;
+    text-align: center;
+    color: white;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    
+}
+
+#tarefas{
+    margin: auto;
+}
+
+
+#nav{
+    margin: auto;
+    background-color: #fca311;
+    width: 100%;
+    float: top;
+    overflow: hidden;
+    
+}
+
+#content{
+    display:inline-block;
+    width: 100%;
+    max-height: 680px;
+    background-color: #e5e5e5;
+    margin: 0px auto 10px auto;
+    overflow: auto;
+    
+    
+}
+
+#newtarefa{
+    display: inline-block;
+    background-color: #14213d;
+    width: 50%;
+    margin: auto;
+    position: fixed;
+    bottom: 0;
+    left: auto;
+    
+}
+
+#titulo{
+    display: block;
+    width: 40%;
+    height: 20px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    font-size: 1rem;
+}
+#descricao{
+    height: 35px;
+    margin-bottom: 5px;
+    width: 98%;
+    margin: 0px 5px 5px 5px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    font-size: 1rem;
+    
+}
+#inputs{
+    display: inline-block;
+    width: 78%;
+    
+}
+
+#adicionar{
+    display: inline;
+    width: 20%;
+    padding: 20px 0px;
+    background-color: #fca311;
+    float: right;
+    text-align: center;
+    margin: 5px 5px;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    
+}
+
+#adicionar:hover{
+    background-color:  #fddba4;
+    
+}
+
+
+@media screen and (max-width: 778px){
+
+    #geral{
+        width: 80%;
+    }
+    #newtarefa{
+        
+        width: 80%;
+        
+        
+    }
+
+}
+@media screen and (max-width: 425px){
+
+    #geral{
+        width: 100%;
+        height: 100%;
+        
+    }
+    #newtarefa{
+        
+        width: 100%;
+        
+        
+    }
+    #adicionar{
+        display: inline;
+        width: 100%;
+        margin: auto;
+        
+    }
+    #inputs{
+       
+        width: 98%;
+        margin: auto;
+
+    }
+
+    .titulotarefa{
+        display: block;
+        width: 100%;
+        
+    }
+    .contentTarefa{
+        display: block;
+        height: 70%;
+        width: 97%;
+    }
+    
+    .concluir{
+        line-height: 200%;
+        float: none;
+        width: 97%;
+        height: 30%;
+    }
+        
+    
+
+    .tarefas{
+        width: 95%;
+        height: 110px;
+        margin: 15px auto;
+        background-color: white;
+        border-radius: 10px 0px 0px 10px;
+        overflow: hidden;
+        box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        
+    
+    }
+
+    #content{
+        
+       max-height: 630px;
+       min-height: 0%;
+        
+        
+    }
+
+}
